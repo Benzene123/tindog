@@ -1,0 +1,111 @@
+
+
+#title {
+    background-color: #ff4c68;
+    padding: 0px 13% 7%;
+}
+
+.heading {
+    font-family: "Merriweather sans" sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid {
+    padding: 3%;
+}
+.navbar-brand {
+    font-family: "ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.rotated {
+    transform: rotate(25deg);
+    padding: 50px 0px;
+    position:  absolute;
+    right: 25%;
+    z-index: 0;
+    width: 18%;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.image-press {
+     width: 15%;
+     padding: 0px 1% 1%;
+
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3%;
+}
+
+@media screen and (max-width: 375) {
+    
+
+    #title {
+        text-align: center;
+    }
+
+    .rotated {
+        position: static;
+        transform: rotate(0);
+        width: auto
+}
+
+}
+
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px 50px 200px;
+    color: white;
+    
+}
+.tca {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+#footer {
+    text-align: center;
+    padding: 100px 0px;
+}
